@@ -6,29 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header id="header" class="header">
+        <p class="header-logo">Header Logo</p>
         <article>
-            <!-- <img id="Header-Logo" src="https://cdn.pixabay.com/photo/2013/07/13/13/56/tiger-161802_960_720.png"> -->
-        </article>
-        <article>
-            <nav>
-                <a href="#random-information">Random information</a>
-                <a href="#quote">Quote</a>
-                <a href="#Sign-up">Sign up</a>
+            <nav class="navbar">
+                <a href="#random-information" class="navbar-link">Random information</a>
+                <a href="#quote" class="navbar-link">Quote</a>
+                <a href="#Sign-up" class="navbar-link">Sign up</a>
             </nav>
         </article>
-        <article>
-            <h1>A fun website</h1>
-            <p>In this website you'll see amazing features</p>
-            <button class="button" type="button">Sign up</button>
-        </article>
-        <article>
-            <!-- <img src="" alt="header's image"> -->
-        </article>
     </header>
-
     <main>
-        <article id="random-information" class="main-article">
+        <article id="introduction" class="main-article1">
+            <article >
+                <h1 class="hero-main-text">A fun website</h1>
+                <p class="hero-secondary-text">In this website you'll see amazing features</p>
+                <button class="button" type="button">Sign up</button>
+            </article>
+            <article >
+                <img class="hero-image" id="Header-Logo" src="https://cdn.pixabay.com/photo/2013/07/13/13/56/tiger-161802_960_720.png" alt="A tiger's image">
+            </article>
+        </article>
+        <article id="random-information" class="main-article2">
             <h1>Pretty tigers</h1>
             <article>
                 <section>
@@ -40,15 +39,15 @@
                 <section></section>
             </article>
         </article>
-        <article id="quote" class="main-article">
+        <article id="quote" class="main-article3">
             <p class="quote-text">Tigers are great. respect them!</p>
             <p class="caption">-Parsa Kalagar</p>
         </article>
-        <article id="Sign-up" class="main-article">
+        <article id="Sign-up" class="main-article4">
             <article>
                 <h1>Help tigers</h1>
                 <p>tigers are formidable, let's help them</p>
-                <button vlass="button" type="button">Sign up</button>
+                <button class="button" type="button">Sign up</button>
             </article>
         </article>
     </main>
